@@ -1,10 +1,15 @@
 import React from 'react';
+import { Container } from 'react-bootstrap'
+
+import './App.scss'
 
 const App = () => {
     return (
-        <>
-            <h1>Welcome To Librería</h1>
-        </>
+        <main>
+            <Container>
+                <h1>Welcome To Librería</h1>
+            </Container>
+        </main>
     )
 };
 
